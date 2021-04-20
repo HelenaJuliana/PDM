@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MinhasCores">
         <activity android:name=".FormActivity"></activity>
-        <activity android:name=".ListaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

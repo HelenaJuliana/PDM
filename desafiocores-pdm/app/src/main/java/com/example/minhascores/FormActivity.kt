@@ -110,7 +110,7 @@ class FormActivity : AppCompatActivity() {
     inner class VermelhoSeek: SeekBar.OnSeekBarChangeListener {
         override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
             vermelhoCor = progress
-            this@FormActivity.addColor()
+            this@FormActivity.updateBackgroundColor()
         }
         override fun onStartTrackingTouch(seekBar: SeekBar?) {
         }
