@@ -107,6 +107,7 @@ class FormActivity : AppCompatActivity() {
         this.btnResultado.text = cor.toHex()
     }
 
+
     inner class VermelhoSeek: SeekBar.OnSeekBarChangeListener {
         override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
             vermelhoCor = progress

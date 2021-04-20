@@ -21,6 +21,7 @@ class Cor : Serializable{
             return String.format("#%06X", (0xFFFFFF and color))
         }
     }
+
     fun toHex() : String{
         return String.format("#%06X", (0xFFFFFF and codigo))
     }

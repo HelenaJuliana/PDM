@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         this.corDAO = corDAO(this)
         this.cores = ArrayList<Cor>()
         val listaCores = findViewById<ListView>(R.id.listaCores)
