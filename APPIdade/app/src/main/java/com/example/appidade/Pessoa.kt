@@ -1,4 +1,4 @@
-package com.example.exercicio_semana03.model
+package com.example.appidade
 
 import java.io.Serializable
 import java.util.*

@@ -1,4 +1,4 @@
-package com.example.exercicio_semana03
+package com.example.appidade
 
 import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.TextView
-import com.example.exercicio_semana03.model.Pessoa
+
 
 class OutraActivity : AppCompatActivity() {
     private lateinit var pessoa: Pessoa
