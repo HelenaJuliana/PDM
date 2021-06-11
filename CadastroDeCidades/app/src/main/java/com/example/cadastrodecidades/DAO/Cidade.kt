@@ -3,13 +3,12 @@ package com.example.cadastrodecidades.DAO
 import java.io.Serializable
 
 class Cidade : Serializable {
-    var id: Int = 0
-    lateinit var nome : String
-    var codigo :  Int = 0
+    var id: Int
+    var nome : String
+    var codigo :  Int
 
 
     constructor(nome: String, codigo: Int) {
-        this.id = 1
         this.nome = nome
         this.codigo = codigo
     }
